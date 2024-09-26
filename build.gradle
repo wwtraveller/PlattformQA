@@ -1,0 +1,21 @@
+plugins {
+    id 'groovy'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.groovy:groovy:4.0.14'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.24.0'
+    implementation group: 'org.testng', name: 'testng', version: '7.10.2'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.9.2'
+}
+
+test {
+    useTestNG()
+}
