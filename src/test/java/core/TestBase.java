@@ -41,6 +41,7 @@ public class TestBase {
         logger.info("Test result: Failed " + result.getMethod().getMethodName());
     }
     logger.info("finish");
+    System.out.println("f");
 }
 }
 
