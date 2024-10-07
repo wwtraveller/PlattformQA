@@ -44,7 +44,7 @@ public class ApplicationManager {
          driver.manage().window().setPosition(new Point(2500, 0));
          driver.manage().window().maximize();
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
-         driver.get("https://platform-qxs32.ondigitalocean.app/#/dashboard");
+         driver.get("https://platform-qxs32.ondigitalocean.app/");
      }
 
     protected void stopTest() {

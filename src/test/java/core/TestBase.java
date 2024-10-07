@@ -1,5 +1,6 @@
 package core;
 
+import org.openqa.selenium.WebDriver;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 import org.testng.ITestResult;
@@ -12,6 +13,7 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class TestBase {
+    public static WebDriver driver;
     protected static  ApplicationManager applicationManager = new ApplicationManager(System.getProperty("Browser","Chrome"));
     Logger logger= LoggerFactory.getLogger(TestBase.class);
 @BeforeSuite
@@ -41,6 +43,7 @@ public class TestBase {
         logger.info("Test result: Failed " + result.getMethod().getMethodName());
     }
     logger.info("finish");
+    System.out.println("f");
 }
 }
 

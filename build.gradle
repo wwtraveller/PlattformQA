@@ -11,9 +11,10 @@ repositories {
 
 dependencies {
     implementation 'org.apache.groovy:groovy:4.0.14'
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.24.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.25.0'
     implementation group: 'org.testng', name: 'testng', version: '7.10.2'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.9.2'
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.5.8'
 }
 
 test {
