@@ -1,0 +1,11 @@
+02:40:22.602 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akmoo\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+02:40:22.645 [main] INFO  core.TestBase - TEST SUITE STARTING
+02:40:22.713 [main] INFO  core.TestBase - [loginPositiveTest]
+02:40:23.427 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+02:40:23.469 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akmoo\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+02:40:25.680 [main] INFO  core.TestBase - Test is started: [loginPositiveTest]
+02:40:28.596 [main] INFO  core.TestBase - Test result: Failed loginPositiveTest
+02:40:28.597 [main] INFO  core.TestBase - finish
+02:40:28.603 [main] INFO  core.TestBase - TEST SUITE ENDED

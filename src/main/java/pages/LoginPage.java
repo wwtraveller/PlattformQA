@@ -11,7 +11,7 @@ public class LoginPage extends BasePage {
     }
     @FindBy(xpath = "(//input[@name='username'])[1]")
     WebElement userName;
-    @FindBy(id = "password")
+    @FindBy(xpath = "(//input[@name='password'])[1]")
    WebElement userPassword;
 
 
@@ -20,14 +20,13 @@ public class LoginPage extends BasePage {
         type(userPassword, password);
         return this;
     }
-    @FindBy(css = "//header/div[2]/div[2]/button[2]")
+    @FindBy(css = ".buttonLogReg_loginWindowContent__OCEgs .authWindow_authSectionLog__t1yJc .button_myButton__gKN5o")
     WebElement loginButton;
 
     public LoginPage clickOnLoginButton(){
+        pause(1000);
         click(loginButton);
         return new LoginPage(driver);
     }
-
-
 
 }

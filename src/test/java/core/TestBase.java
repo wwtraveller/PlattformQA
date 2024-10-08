@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 public class TestBase {
     public static WebDriver driver;
-    protected static  ApplicationManager applicationManager = new ApplicationManager(System.getProperty("Browser","Chrome"));
+    protected static ApplicationManager applicationManager = new ApplicationManager(System.getProperty("Browser","Chrome"));
     Logger logger= LoggerFactory.getLogger(TestBase.class);
 @BeforeSuite
     public void setUpSuite(){

@@ -1,0 +1,8 @@
+03:13:50.497 [Test worker] INFO  core.TestBase - TEST SUITE STARTING
+03:13:50.529 [Test worker] INFO  core.TestBase - [articleManagement]
+03:13:50.830 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+03:13:50.855 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akmoo\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+03:13:52.658 [Test worker] INFO  core.TestBase - Test is started: [articleManagement]
+03:13:55.161 [Test worker] INFO  core.TestBase - Test result: Failed articleManagement
+03:13:55.162 [Test worker] INFO  core.TestBase - finish
+03:13:55.167 [Test worker] INFO  core.TestBase - TEST SUITE ENDED

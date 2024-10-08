@@ -1,0 +1,6 @@
+02:32:04.123 [main] INFO  core.TestBase -- TEST SUITE STARTING
+02:32:04.189 [main] INFO  core.TestBase -- [loginPositiveTest]
+02:32:07.624 [main] INFO  core.TestBase -- Test is started: [loginPositiveTest]
+02:32:10.542 [main] INFO  core.TestBase -- Test result: Failed loginPositiveTest
+02:32:10.542 [main] INFO  core.TestBase -- finish
+02:32:10.551 [main] INFO  core.TestBase -- TEST SUITE ENDED

@@ -1,0 +1,5 @@
+05:20:01.390 [Test worker] INFO  core.TestBase - TEST SUITE STARTING
+05:20:01.421 [Test worker] INFO  core.TestBase - [searchBookTest]
+05:20:01.706 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+05:20:01.725 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akmoo\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+05:20:03.165 [Test worker] INFO  core.TestBase - Test is started: [searchBookTest]

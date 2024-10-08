@@ -1,0 +1,8 @@
+03:38:49.907 [Test worker] INFO  core.TestBase - TEST SUITE STARTING
+03:38:49.942 [Test worker] INFO  core.TestBase - [loginPositiveTest]
+03:38:50.254 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+03:38:50.276 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akmoo\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+03:38:51.897 [Test worker] INFO  core.TestBase - Test is started: [loginPositiveTest]
+03:38:54.704 [Test worker] INFO  core.TestBase - Test result: Passed loginPositiveTest
+03:38:54.704 [Test worker] INFO  core.TestBase - finish
+03:38:54.708 [Test worker] INFO  core.TestBase - TEST SUITE ENDED

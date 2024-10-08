@@ -11,18 +11,7 @@ public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
         super(driver);
     }
-
-    @FindBy(css="//nav[@class='adminMenu_adminMenu__zXSCU']//a[1]:nth-child(1)")
-    WebElement adminMenu;
-
-
-    public HomePage getAdminMenu(){
-        moveToView(adminMenu);
-        click(adminMenu);
-        return  new HomePage(driver);
-    }
-
-    @FindBy(xpath = "//*[.='Войти']")
+    @FindBy(css = ".header_navRight__fEmbT > .button_myButton__gKN5o")
     WebElement login;
 
     public HomePage getHomePage(){
@@ -31,5 +20,55 @@ public class HomePage extends BasePage {
         click(login);
         return new HomePage(driver);
     }
-
+    @FindBy(css = ".header_navLinkContainer__HCptx:nth-child(1)")
+    WebElement knowledgeBase;
+    public HomePage getKnowledgeBase(){
+        this.click(this.knowledgeBase);
+        return new HomePage(this.driver);
+    }
+    @FindBy(css = ".header_navLinkContainer__HCptx:nth-child(2)")
+    WebElement FAQ;
+    public HomePage getFAQ(){
+        this.click(this.FAQ);
+        return new HomePage(this.driver);
+    }
+    @FindBy(css = ".header_navLinkContainer__HCptx:nth-child(3)")
+    WebElement glossary;
+    public HomePage getGlossary(){
+        this.click(this.glossary);
+        return new HomePage(this.driver);
+    }
+    @FindBy(css = ".header_navLinkContainer__HCptx:nth-child(4)")
+    WebElement partnership;
+    public HomePage getPartnership() {
+        this.click(this.partnership);
+        return new HomePage(this.driver);
+    }
+    @FindBy(css = ".header_navLinkContainer__HCptx:nth-child(5)")
+    WebElement aboutUs;
+    public HomePage getAboutUs() {
+        this.click(this.aboutUs);
+        return new HomePage(this.driver);
+    }
+    @FindBy(css = "header_navRight__fEmbT")
+    WebElement search;
+    public HomePage getSearch(){
+        this.click(this.search);
+        return new HomePage(this.driver);
+    }
+    @FindBy(xpath = "//a[@class='header_navLink__+scxG header_active__CtAsY']")
+    WebElement FAQq;
+    public void selectFAQ() {
+        this.click(this.FAQq);
+    }
+@FindBy(xpath = "//a[@class='header_navLink__+scxG header_active__CtAsY']")
+WebElement glossaryS;
+    public void selectGlossary() {
+        this.click(this.glossaryS);
+    }
+    @FindBy(xpath = "//a[@class='header_navLink__+scxG header_active__CtAsY']")
+    WebElement aboutUsS;
+    public void selectAboutUs() {
+        this.click(this.aboutUsS);
+    }
 }
