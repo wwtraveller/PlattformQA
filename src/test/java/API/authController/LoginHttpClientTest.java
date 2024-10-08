@@ -18,7 +18,7 @@ public class LoginHttpClientTest {
                 .password("Qwerty123!")
                 .build();
         Gson gson = new Gson();
-        Response response = Request.Post("https://contactapp-telran-backend.herokuapp.com/v1/user/login/usernamepassword")
+        Response response = Request.Post("https://platform-qxs32.ondigitalocean.app/api/login")
                 .bodyString(gson.toJson(requestDto), ContentType.APPLICATION_JSON)
                 .execute();
         String responseJson = response.returnContent().asString();

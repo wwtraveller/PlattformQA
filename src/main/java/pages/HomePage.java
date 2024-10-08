@@ -47,13 +47,13 @@ public class HomePage extends BasePage {
     @FindBy(css = ".header_navLinkContainer__HCptx:nth-child(5)")
     WebElement aboutUs;
     public HomePage getAboutUs() {
-        this.click(this.aboutUs);
+        click(this.aboutUs);
         return new HomePage(this.driver);
     }
-    @FindBy(css = "header_navRight__fEmbT")
+    @FindBy(css = "[placeholder='Поиск']")
     WebElement search;
     public HomePage getSearch(){
-        this.click(this.search);
+        click(this.search);
         return new HomePage(this.driver);
     }
     @FindBy(xpath = "//a[@class='header_navLink__+scxG header_active__CtAsY']")

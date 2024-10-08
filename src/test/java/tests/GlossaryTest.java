@@ -8,12 +8,12 @@ import pages.HomePage;
 public class GlossaryTest extends TestBase {
     @BeforeMethod
     public void precondition(){
-        new HomePage(applicationManager.driver).getGlossary();
+        new HomePage(app.driver).getGlossary();
 
     }
     @Test
     public void FAQ() {
-        new HomePage(applicationManager.driver)
+        new HomePage(app.driver)
                 .selectGlossary();
     }
 }

@@ -10,5 +10,5 @@ import lombok.ToString;
 @ToString
 @Builder
 public class AuthResponseDto {
-    private String token;
+    private String accessToken;
 }
