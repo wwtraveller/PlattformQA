@@ -1,0 +1,8 @@
+04:40:03.015 [Test worker] INFO  core.TestBase - TEST SUITE STARTING
+04:40:03.058 [Test worker] INFO  core.TestBase - [clickOnProduct]
+04:40:03.460 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+04:40:03.485 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akmoo\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+04:40:04.939 [Test worker] INFO  core.TestBase - Test is started: [clickOnProduct]
+04:40:06.375 [Test worker] INFO  core.TestBase - Test result: Failed clickOnProduct
+04:40:06.376 [Test worker] INFO  core.TestBase - finish
+04:40:06.381 [Test worker] INFO  core.TestBase - TEST SUITE ENDED

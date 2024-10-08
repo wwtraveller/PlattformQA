@@ -15,6 +15,20 @@ dependencies {
     implementation group: 'org.testng', name: 'testng', version: '7.10.2'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.9.2'
     implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.5.8'
+
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    testCompileOnly 'org.projectlombok:lombok:1.18.34'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
+
+    implementation 'org.testng:testng:7.10.2'
+
+    // Подключаем библиотеку для работы с REST API
+    implementation 'org.apache.httpcomponents:httpclient:4.5.14'
+    implementation group: 'org.apache.httpcomponents', name: 'fluent-hc', version: '4.5.14'
+
+    // Парсит JSON в Java объекты и обратно
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.11.0'
 }
 
 test {

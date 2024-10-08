@@ -1,0 +1,8 @@
+05:26:39.917 [Test worker] INFO  core.TestBase - TEST SUITE STARTING
+05:26:39.948 [Test worker] INFO  core.TestBase - [aboutUs]
+05:26:40.242 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+05:26:40.266 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akmoo\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+05:26:41.630 [Test worker] INFO  core.TestBase - Test is started: [aboutUs]
+05:26:43.433 [Test worker] INFO  core.TestBase - Test result: Failed aboutUs
+05:26:43.433 [Test worker] INFO  core.TestBase - finish
+05:26:43.438 [Test worker] INFO  core.TestBase - TEST SUITE ENDED
