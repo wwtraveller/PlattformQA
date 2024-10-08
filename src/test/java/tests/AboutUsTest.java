@@ -9,12 +9,12 @@ import pages.HomePage;
 public class AboutUsTest extends TestBase{
         @BeforeMethod
         public void precondition(){
-            new HomePage(applicationManager.driver).getAboutUs();
+            new HomePage(app.driver).getAboutUs();
 
         }
         @Test
         public void aboutUs() {
-            new HomePage(applicationManager.driver)
+            new HomePage(app.driver)
                     .selectAboutUs();
         }
     }

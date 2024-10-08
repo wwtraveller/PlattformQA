@@ -13,8 +13,8 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class TestBase {
-    public static WebDriver driver;
-    protected static ApplicationManager applicationManager = new ApplicationManager(System.getProperty("Browser","Chrome"));
+
+    protected static ApplicationManager app = new ApplicationManager(System.getProperty("Browser","Chrome"));
     Logger logger= LoggerFactory.getLogger(TestBase.class);
 @BeforeSuite
     public void setUpSuite(){
@@ -23,7 +23,7 @@ public class TestBase {
 @BeforeMethod
     public void init(Method method,Object[]parameters){
     logger.info("["+method.getName()+"]");
-    applicationManager.startTest();
+    app.startTest();
     if (parameters!=null&&parameters.length>0){
         logger.info("Test is started: [" + method.getName() + "], with data: " + Arrays.asList(parameters));
     }else {
@@ -36,7 +36,7 @@ public class TestBase {
 }
 @AfterMethod
     public void tearDown(ITestResult result){
-    applicationManager.stopTest();
+    app.stopTest();
     if (result.isSuccess()) {
         logger.info("Test result: Passed " + result.getMethod().getMethodName());
     }else{

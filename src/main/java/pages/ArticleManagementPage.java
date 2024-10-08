@@ -12,6 +12,7 @@ public class ArticleManagementPage extends BasePage {
  @FindBy(xpath = "//a[@class='header_navLink__+scxG header_active__CtAsY']")
  WebElement ArticleManagement;
     public void clickOnArticleManagementButton() {
+
         click(ArticleManagement);
     }
 

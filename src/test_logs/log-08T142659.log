@@ -1,0 +1,8 @@
+14:27:00.818 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akmoo\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+14:27:00.851 [main] INFO  core.TestBase - TEST SUITE STARTING
+14:27:00.912 [main] INFO  core.TestBase - [searchBookTest]
+14:27:01.463 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+14:27:01.504 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akmoo\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+14:27:03.564 [main] INFO  core.TestBase - Test is started: [searchBookTest]

@@ -10,13 +10,14 @@ import pages.LoginPage;
 public class ArticleManagementTest extends TestBase {
     @BeforeMethod
     public void precondition(){
-        new HomePage(applicationManager.driver).getHomePage();
+        new HomePage(app.driver).getHomePage();
+
 
 
     }
     @Test(testName = "Article Management Test")
     public void articleManagement() {
-        new ArticleManagementPage(applicationManager.driver)
+        new ArticleManagementPage(app.driver)
                 .clickOnArticleManagementButton();
                // .selectCreateArticle()
                 //.clickOnSaveButton();
