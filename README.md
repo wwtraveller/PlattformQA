@@ -46,7 +46,7 @@ Known Bugs
 Authors and contacts
 - QA engineer: [Anastasiia Hryhorenko , Akmoor Zabytakhunova]  
   For questions about testing the project or detecting bugs, please contact us by email: hryhorenast@gmail.com
-akuwa@gmail.com 
+160403007akuwa@gmail.com 
 
 
 
